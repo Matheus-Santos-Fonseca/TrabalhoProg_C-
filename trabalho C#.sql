@@ -36,7 +36,6 @@ create table Tbl_FormadePagamento
 	idformadepagamento int primary key auto_increment not null,
     forma_de_pagamento varchar(50)
 );
-update Tbl_FormadePagamento set forma_de_pagamento = "Cartão de Débito" where idformadepagamento = 4;
 INSERT INTO Tbl_FormadePagamento (forma_de_pagamento) VALUES ('Dinheiro');
 INSERT INTO Tbl_FormadePagamento (forma_de_pagamento) VALUES ('Cartão de Crédito');
 INSERT INTO Tbl_FormadePagamento (forma_de_pagamento) VALUES ('PIX');
