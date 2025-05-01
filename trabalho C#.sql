@@ -53,7 +53,6 @@ insert into Usuarios(NomeUsuario, Senha) Values ("admin","000");
 select * from Tbl_Vendas;
 select * from Tbl_FormadePagamento;
 
-drop table Usuarios;
 ALTER TABLE Tbl_FormadePagamento CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
 
